@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+  padding:0;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+
+.header {
+background: linear-gradient(340deg, #d4e7fe 0%, #fff 100%);
+border: 1px solid #000;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+max-width: 1440px;
+height: 746px;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+margin: 0 auto;
+}
+
+.div-navigation {
+border-bottom: 1px solid #217bf4;
+}
